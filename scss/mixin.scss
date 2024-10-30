@@ -1,0 +1,104 @@
+@import "styleConst";
+
+@mixin title-font {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: normal;
+  line-height: 24px;
+  color: $grey;
+}
+
+@mixin maxMedia767none {
+  @media (max-width: 767px) {
+    display: none;
+  }
+}
+
+@mixin container-top-title-text {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: $white;
+  @media (max-width: 767px) {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
+
+@mixin container-top-main-text {
+  font-family: "Lato", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 53px;
+  color: $white;
+  @media (max-width: 1200px) {
+    font-size: 22px;
+    line-height: 39px;
+  }
+  @media (max-width: 500px) {
+    line-height: 25px;
+  }
+}
+
+@mixin maxMediaSmall {
+  @media (max-width: 500px) {
+  }
+}
+
+@mixin wrapText {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: $grey;
+  @media (max-width: 424px) {
+    font-size: 8px;
+    line-height: 11px;
+  }
+}
+
+@mixin quastionsText {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 60px;
+  color: $darkBlue;
+  @media (max-width: 425px) {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+
+@mixin descripotionText {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: $grey;
+}
+
+@mixin mainSizeTitle {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 45px;
+  color: $darkBlue;
+  @media (max-width: 767px) {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+
+@mixin foooterText {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: $white;
+  @media (max-width: 424px) {
+    font-size: 12px;
+    line-height: 25px;
+  }
+}
